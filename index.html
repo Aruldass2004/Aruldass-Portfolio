@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aruldass J - Aspiring Cloud Engineer portfolio">
+  <title>Aruldass J | Cloud Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grid-bg"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home"><span>&lt;</span>ARULDASS<span>/&gt;</span></a>
+    <button class="menu-btn" aria-label="Toggle menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <div class="status"><i></i> AVAILABLE FOR OPPORTUNITIES</div>
+        <p class="eyebrow">ASPIRING CLOUD ENGINEER</p>
+        <h1>Building <span>secure</span><br>cloud solutions.</h1>
+        <p class="lead">
+          I'm <strong>Aruldass J</strong>, a B.Tech Information Technology student focused on
+          AWS, cloud infrastructure, automation, Linux, Python and databases.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore Projects <span>→</span></a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+          <a class="btn ghost" href="ARULDASS%20J.pdf" download>Download Resume ↓</a>
+        </div>
+        <div class="terminal-line">
+          <span>$</span> aws cloudformation deploy --stack-name aruldass-portfolio
+        </div>
+      </div>
+
+      <div class="cloud-card">
+        <div class="cloud-top"><span>cloud://aruldass</span><span>● ● ●</span></div>
+        <div class="cloud-icon">☁</div>
+        <div class="node n1">S3</div>
+        <div class="node n2">λ Lambda</div>
+        <div class="node n3">RDS</div>
+        <div class="node n4">VPC</div>
+        <div class="node n5">CW</div>
+        <div class="cloud-center">AWS<br><small>Cloud</small></div>
+        <div class="pulse p1"></div><div class="pulse p2"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-head">
+        <span>01</span><h2>ABOUT ME</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="mono-label">PROFILE.INIT()</p>
+          <h3>Cloud-first mindset.<br>Hands-on learning.</h3>
+        </div>
+        <div>
+          <p>
+            I am an aspiring Cloud Engineer with practical exposure to AWS services,
+            infrastructure, serverless applications, networking and databases. I enjoy
+            turning cloud concepts into working projects and learning by building.
+          </p>
+          <p>
+            My current focus is AWS cloud infrastructure, automation, monitoring and
+            secure application architecture using services such as S3, Lambda, EC2,
+            VPC, RDS/Aurora, CloudFormation and CloudWatch.
+          </p>
+          <div class="mini-stats">
+            <div><strong>2026</strong><span>Graduation</span></div>
+            <div><strong>7.5</strong><span>Current CGPA</span></div>
+            <div><strong>AWS</strong><span>Primary Focus</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head">
+        <span>02</span><h2>TECH STACK</h2>
+      </div>
+      <p class="section-sub">Tools and technologies from my current learning and project experience.</p>
+      <div class="skill-grid">
+        <div class="skill-card"><div class="skill-icon">☁</div><h3>AWS & Cloud</h3><p>EC2 · S3 · Lambda · IAM · VPC · CloudFormation · CloudWatch · RDS/Aurora · SNS · SQS</p></div>
+        <div class="skill-card"><div class="skill-icon">⌘</div><h3>Networking</h3><p>Public & Private Subnets · Route Tables · Security Groups · Network Configuration</p></div>
+        <div class="skill-card"><div class="skill-icon">&lt;/&gt;</div><h3>Programming</h3><p>Python · SQL · PostgreSQL · HTML · CSS</p></div>
+        <div class="skill-card"><div class="skill-icon">◉</div><h3>Dev Tools</h3><p>Linux · Git · GitHub · CloudFormation · IAM-based access control</p></div>
+        <div class="skill-card"><div class="skill-icon">◫</div><h3>Other Technologies</h3><p>UiPath · OpenCV · Figma · Adobe Photoshop · Adobe Illustrator · DaVinci Resolve</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <span>03</span><h2>PROJECTS</h2>
+      </div>
+      <p class="section-sub">Cloud, automation, infrastructure and application projects.</p>
+      <div class="project-grid">
+        <article class="project featured">
+          <div class="project-number">01</div>
+          <div class="project-body">
+            <p class="tag">AWS · SERVERLESS · DATABASE</p>
+            <h3>AWS Resume Processing & Database Automation</h3>
+            <p>Built an AWS solution using S3, Lambda, Aurora PostgreSQL, IAM and CloudWatch for automated resume processing and database storage.</p>
+            <div class="chips"><span>S3</span><span>Lambda</span><span>Aurora</span><span>IAM</span><span>CloudWatch</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">02</div>
+          <div class="project-body">
+            <p class="tag">AWS · SECURITY · ANALYTICS</p>
+            <h3>AWS Bastion Host & Serverless Data Analytics</h3>
+            <p>Designed a secure architecture using VPC, Bastion Host, EC2, Lambda, RDS, DynamoDB and Redshift with private subnet access and CloudWatch monitoring.</p>
+            <div class="chips"><span>VPC</span><span>EC2</span><span>RDS</span><span>Redshift</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">03</div>
+          <div class="project-body">
+            <p class="tag">AWS · NETWORKING</p>
+            <h3>AWS Cloud Infrastructure & VPC Setup</h3>
+            <p>Configured VPC networking with public/private subnets, EC2, route tables, security groups and IAM for secure cloud infrastructure.</p>
+            <div class="chips"><span>VPC</span><span>EC2</span><span>IAM</span><span>Networking</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">04</div>
+          <div class="project-body">
+            <p class="tag">AWS · DATA ANALYTICS</p>
+            <h3>AWS Data Analytics – Amazon Redshift</h3>
+            <p>Built a data warehouse using S3 and Amazon Redshift for storing, querying and analyzing datasets with IAM-based access control.</p>
+            <div class="chips"><span>S3</span><span>Redshift</span><span>IAM</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">05</div>
+          <div class="project-body">
+            <p class="tag">SERVERLESS · API</p>
+            <h3>AWS Serverless Application</h3>
+            <p>Built a serverless application using API Gateway, Lambda, DynamoDB and CloudWatch for API-based data processing and storage.</p>
+            <div class="chips"><span>API Gateway</span><span>Lambda</span><span>DynamoDB</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">06</div>
+          <div class="project-body">
+            <p class="tag">PYTHON · COMPUTER VISION</p>
+            <h3>Computer Vision Projects</h3>
+            <p>Developed image-processing applications for car damage, number plate and object detection using OpenCV.</p>
+            <div class="chips"><span>Python</span><span>OpenCV</span><span>AI</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">07</div>
+          <div class="project-body">
+            <p class="tag">AUTOMATION · UIPATH</p>
+            <h3>AI Copy/Paste Automation</h3>
+            <p>Developed an automated copy/paste solution using UiPath to reduce repetitive data-entry tasks and improve efficiency.</p>
+            <div class="chips"><span>UiPath</span><span>Automation</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-number">08</div>
+          <div class="project-body">
+            <p class="tag">PYTHON · AUTOMATION</p>
+            <h3>AI-Driven Automated Code Bug Detection</h3>
+            <p>Developed an automated Python system that detects code bugs and suggests fix recommendations.</p>
+            <div class="chips"><span>Python</span><span>AI</span><span>Automation</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-head">
+        <span>04</span><h2>EDUCATION & CERTIFICATIONS</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="year">2026</span>
+          <div><h3>B.Tech — Information Technology</h3><p>Graduation: 2026 · Current Sem CGPA: 7.5</p></div>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2022</span>
+          <div><h3>Higher Secondary</h3><p>Government Boys Higher Secondary School, Keeramangalam · 75.6%</p></div>
+        </div>
+      </div>
+      <div class="certs">
+        <span>AWS Solution Architect — FITA</span>
+        <span>Cloud Computing — Udemy</span>
+        <span>Python Programming — Udemy</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box">
+        <div>
+          <p class="eyebrow">05 · CONTACT</p>
+          <h2>Let's build something<br><span>on the cloud.</span></h2>
+          <p>Open to cloud, DevOps and software engineering opportunities.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:aruldassj45@gmail.com">✉ aruldassj45@gmail.com</a>
+          <a href="tel:+919342592651">☎ +91 93425 92651</a>
+          <a href="#" title="Replace # with your LinkedIn profile">in LinkedIn</a>
+          <a href="#" title="Replace # with your GitHub profile">◉ GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Aruldass J</span>
+    <span>Cloud Engineer Portfolio · Built with HTML, CSS & JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
